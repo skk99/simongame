@@ -54,7 +54,7 @@ function nextSequence(){
 
   $("#level-title").text("Level "+level);
 
-  var randomNumber=Math.floor(Math.random()*3)+1;
+  var randomNumber=Math.floor(Math.random()*4);         // This will give random number from 0 to 3
   var randomChosenColour=buttonColours[randomNumber];
 
   gamePattern.push(randomChosenColour);
